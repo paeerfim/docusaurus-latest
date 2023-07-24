@@ -52,15 +52,8 @@ const config = {
         title: 'My Site',
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-            to: '/docs/intro'
-          },
-          {to: '/blog',
-           label: 'Blog',
-            position: 'left',
+           label: 'Docs',
+           to: '/docs/intro',
           },
         ],
       },
