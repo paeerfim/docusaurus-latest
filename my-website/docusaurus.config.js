@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: ' ',
+  tagline: ' ',
   favicon: 'img/favicon.ico',
 
   url: 'https://your-docusaurus-test-site.com',
@@ -55,9 +55,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
+            to: '/docs/intro'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog',
+           label: 'Blog',
+            position: 'left',
+          },
         ],
       },
       footer: {
